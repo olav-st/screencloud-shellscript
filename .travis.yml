@@ -11,7 +11,7 @@ deploy:
   api_key:
     secure: lZMNWcel4HXTNyO51v4TxWAVkjdR8OLBkeTa3j6/tBChS7gb2khO2IDdppMV/RB0ebHSyZ990xC/cX/wF6Uslokh7i1bnGad/04WJptpU8D6V96VoHHB6zUXutLWavWc/aR4ctS7jrMgnT/7RqW86QkIh5TP9gJ6GRP8D9kG4duhO/QuXJLgt7hlwDM4R86DyxyBGQbj25VDVt9poEIZleiORr/1oPxOjJWexB4lsxmEJoRbemGD0eZLEPe0SXkwQaOofm/Iu4SVeK/xPIykQFkHq3E1GgL13R8wxwWYeGafolA+5/9rUVaCS4C7S/E/ffoqBSPQ1zSu/KI1H4hiJvDkkpLu0T9u3VMUPgIMgj0b5kupjg+JqfflU+KT9WBworfHufRAr+CCgFfdI2jG0fYz8gpS871MQWJpiRTu6Qv5sYq5kYtEyZ/lO+aMM7JM1HMH3SlCerxcJkRmlKGr7qHWXqrR5NFGayLVMMvCxGDcxwm8ji2YeNYniSgVMBJVdfh+Xqz4lEmPaSWli3mIp3PNTpKiyrjfknLMmabOIL9Ej9mF6aMiEWXJzq9iWVKsBOg8DbyH5W/V/LJGNT4/pVIPFbB/WK7cmDMcoChwZ4W2yO4EdckFr4/9dyfwYC5gJ30Kf4fTwgEjSiOWtVi9U4jUePbZ+Btob0VDleYEulY=
   file_glob: true
-  file: *.{zip}
+  file: ./*.zip
   skip_cleanup: true
   on:
     repo: olav-st/screencloud-shellscript
